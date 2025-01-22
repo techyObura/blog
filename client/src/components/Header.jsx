@@ -62,7 +62,7 @@ const Header = ({ menu, setMenu }) => {
         >
           <GoSearch size={20} />
         </Button>
-        <div className="flex gap-2 md:order-2 justify-center items-center">
+        <div className="flex gap-1 md:gap-2 md:order-2 justify-center items-center">
           <Button
             className=" w-10 h-8 lg:w-12 lg:h-10 md:h-12 flex justify-center items-center "
             color={"gray"}
