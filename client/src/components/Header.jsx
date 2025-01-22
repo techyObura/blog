@@ -64,7 +64,7 @@ const Header = ({ menu, setMenu }) => {
         </Button>
         <div className="flex gap-2 md:order-2 justify-center items-center">
           <Button
-            className=" w-12 h-10 md:h-12 flex justify-center items-center "
+            className=" w-10 h-8 lg:w-12 lg:h-10 md:h-12 flex justify-center items-center "
             color={"gray"}
             pill
             onClick={() => dispatch(toggleTheme())}
@@ -102,7 +102,10 @@ const Header = ({ menu, setMenu }) => {
             <>
               <Link to={"/login"}>
                 <Button gradientDuoTone={"purpleToBlue"} className="" outline>
-                  <span className=" md:text-lg md:px-2"> Sign In</span>
+                  <span className=" text-sm px-1 md:text-lg md:px-2">
+                    {" "}
+                    Sign In
+                  </span>
                 </Button>
               </Link>
             </>
