@@ -1,5 +1,5 @@
 const allowedOrigins = [
-  "https://alfredochieng.netlify.app",
+  "https://portfolioalfred.netlify.app",
   "http://localhost:5173",
 ];
 export default allowedOrigins;
